@@ -19,7 +19,9 @@ BuildRequires:	libart_lgpl-devel
 BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%description
+%description -l en
+Calendar ist simply and easy application which helps you to remember
+ about important days.
 
 %description -l pl
 Kalendarz jest prost± aplikacj± opart± o biblioteki Qt, która
@@ -45,5 +47,11 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%attr(744,root,root) %{_bindir}/kalendarz
-%attr(644,root,root) %{_datadir}/doc/HTML/en/kalendarz/um.docb
+%attr(755,root,root) %{_bindir}/*
+%dir %{_datadir}/doc/HTML/en/kalendarz
+%{_datadir}/doc/HTML/en/kalendarz/*
+%dir %{_datadir}/apps/kalendarz
+%{_datadir}/apps/kalendarz/*
+%{_datadir}/icons/hicolor/16x16/apps/*
+%{_datadir}/icons/hicolor/32x32/apps/*
+%{_datadir}/applnk/Utilities/*

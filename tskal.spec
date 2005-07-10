@@ -1,5 +1,5 @@
 #
-Summary:	Simply calendar which helps you to remember about birthdays of your family
+Summary:	Simply calendar which helps you to remember about important days.
 Summary(pl):	Prosty kalendarz, który pomo¿e Ci pamiêtaæ o urodzinach Twoich bliskich
 Name:		calendar
 Version:	0.2

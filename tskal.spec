@@ -21,7 +21,7 @@ BuildRequires:	libart_lgpl-devel
 BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%description -l en
+%description
 Calendar is simply and easy application which helps you to remember about
 important days.
 

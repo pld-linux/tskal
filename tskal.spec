@@ -1,6 +1,8 @@
 #
-Summary:	Simply calendar which helps you to remember about important days.
-Summary(pl):	Prosty kalendarz, który pomo¿e Ci pamiêtaæ o urodzinach Twoich bliskich
+#TODO: sync pl and en description
+#
+Summary:	Simply calendar which helps you to remember about important days
+Summary(pl):	Prosty kalendarz pomagaj±cy pamiêtaæ o wa¿nych dniach
 Name:		calendar
 Version:	0.2
 Release:	1

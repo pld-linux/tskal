@@ -20,8 +20,8 @@ BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description -l en
-Calendar ist simply and easy application which helps you to remember
- about important days.
+Calendar is simply and easy application which helps you to remember about
+important days.
 
 %description -l pl
 Kalendarz jest prost± aplikacj± opart± o biblioteki Qt, która

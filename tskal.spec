@@ -1,7 +1,7 @@
 #
 #TODO: sync pl and en description
 #
-Summary:	Simply calendar which helps you to remember about important days
+Summary:	Simple calendar which helps you to remember about important days
 Summary(pl):	Prosty kalendarz pomagaj±cy pamiêtaæ o wa¿nych dniach
 Name:		calendar
 Version:	0.2
@@ -22,7 +22,7 @@ BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Calendar is simply and easy application which helps you to remember about
+Calendar is simple and easy application which helps you to remember about
 important days.
 
 %description -l pl

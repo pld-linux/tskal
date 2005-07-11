@@ -31,6 +31,8 @@ wy¶wietla kartki kalendarza u³o¿one w pasek. Dziêki temu, podobnie jak
 to czyni± poborowi u¿ywaj±c centymetra, ju¿ na wiele dni wcze¶niej
 ³atwo zauwa¿yæ, ¿e co¶ siê zbli¿a (np. imieniny ¿ony) i mamy czas na
 sensown± reakcjê (czyt. wybór i kupno prezentów i kwiatów).
+Kalendarz obs³uguje skórki. Przyk³adowe mo¿esz pobraæ z:
+http://mike.oldfield.org.pl/tytus/prog/calendar_addons.tgz
 
 %prep
 %setup -q

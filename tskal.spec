@@ -13,9 +13,8 @@ URL:		http://mike.oldfield.org.pl/tytus/tskal.html
 BuildRequires:	glibc-devel
 BuildRequires:	qt-devel > 3.3
 BuildRequires:	qmake
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
 Obsoletes:	calendar
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Tskal is simple and easy application which helps you to remember about 
@@ -23,6 +22,7 @@ important days. Application displays calendar cards in horizontal line
 so it is easy to notice few days before that an event (ie. partner's 
 birthday) is comming. This gives us some time for action (ie. to buy 
 flowers). Application uses skin system.
+
 %description -l pl
 Tskal jest prost± aplikacj± opart± o biblioteki Qt, która wy¶wietla
 kartki kalendarza u³o¿one w pasek. Dziêki temu, podobnie jak to czyni±
@@ -32,19 +32,18 @@ sensown± reakcjê (czyt. wybór i kupno prezentów i kwiatów).
 Aplikacja u¿ywa systemu skórek. 
 
 %prep
-%setup -q -n %{name}-%{version}
+%setup -q
 
 %build
 qmake
 %{__make} \
-        QTDIR=%{_prefix}
+	QTDIR=%{_prefix}
 
 %install
 rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	INSTALL_ROOT=$RPM_BUILD_ROOT \
 	QTDIR=%{_prefix}
-
 
 %clean
 rm -rf $RPM_BUILD_ROOT

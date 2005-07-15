@@ -1,4 +1,6 @@
-#
+# TODO:
+# - Name vs spec filename (rename spec to tskal.spec)
+# - optflags
 Summary:	Simple calendar which helps you to remember about important days
 Summary(pl):	Prosty kalendarz pomagaj±cy pamiêtaæ o wa¿nych dniach
 Name:		tskal
@@ -10,9 +12,8 @@ Group:		X11/Applications
 Source0:	http://mike.oldfield.org.pl/tytus/prog/%{name}-%{version}.tgz
 # Source0-md5:	5ed8ee5ab0dc2914638e136530ad6b2b
 URL:		http://mike.oldfield.org.pl/tytus/tskal.html
-BuildRequires:	glibc-devel
-BuildRequires:	qt-devel > 3.3
 BuildRequires:	qmake
+BuildRequires:	qt-devel > 3.3
 Obsoletes:	calendar
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -20,7 +21,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Tskal is simple and easy application which helps you to remember about 
 important days. Application displays calendar cards in horizontal line 
 so it is easy to notice few days before that an event (ie. partner's 
-birthday) is comming. This gives us some time for action (ie. to buy 
+birthday) is coming. This gives us some time for action (ie. to buy 
 flowers). Application uses skin system.
 
 %description -l pl

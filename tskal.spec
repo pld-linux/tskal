@@ -2,7 +2,7 @@
 # - Name vs spec filename (rename spec to tskal.spec)
 # - optflags
 Summary:	Simple calendar which helps you to remember about important days
-Summary(pl):	Prosty kalendarz pomagaj±cy pamiêtaæ o wa¿nych dniach
+Summary(pl):	Prosty kalendarz pomagaj±cy pamiêtaæ o wa¿nych datach
 Name:		tskal
 Version:	0.4.1
 Release:	1

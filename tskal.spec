@@ -4,13 +4,13 @@
 Summary:	Simple calendar which helps you to remember about important days
 Summary(pl):	Prosty kalendarz pomagaj±cy pamiêtaæ o wa¿nych dniach
 Name:		tskal
-Version:	0.4
+Version:	0.4.1
 Release:	1
 License:	GPL
 Group:		X11/Applications
 # Source0Download:	http://mike.oldfield.org.pl/tytus/index.html
 Source0:	http://mike.oldfield.org.pl/tytus/prog/%{name}-%{version}.tgz
-# Source0-md5:	5ed8ee5ab0dc2914638e136530ad6b2b
+# Source0-md5:	5ea0ae12d5f2a29c7bca8ce97939fc28
 URL:		http://mike.oldfield.org.pl/tytus/tskal.html
 BuildRequires:	qmake
 BuildRequires:	qt-devel > 3.3

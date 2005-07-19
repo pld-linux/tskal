@@ -1,5 +1,4 @@
 # TODO:
-# - Name vs spec filename (rename spec to tskal.spec)
 # - optflags
 Summary:	Simple calendar which helps you to remember about important days
 Summary(pl):	Prosty kalendarz pomagaj±cy pamiêtaæ o wa¿nych datach

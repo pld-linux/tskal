@@ -3,13 +3,13 @@
 Summary:	Simple calendar which helps you to remember about important days
 Summary(pl):	Prosty kalendarz pomagaj±cy pamiêtaæ o wa¿nych datach
 Name:		tskal
-Version:	0.4.1
+Version:	0.5
 Release:	1
 License:	GPL
 Group:		X11/Applications
 # Source0Download:	http://mike.oldfield.org.pl/tytus/index.html
 Source0:	http://mike.oldfield.org.pl/tytus/prog/%{name}-%{version}.tgz
-# Source0-md5:	5ea0ae12d5f2a29c7bca8ce97939fc28
+# Source0-md5:	6237687c0218091b88e84b09c32f34bf
 URL:		http://mike.oldfield.org.pl/tytus/tskal.html
 BuildRequires:	qmake
 BuildRequires:	qt-devel > 3.3
@@ -41,6 +41,7 @@ qmake
 
 %install
 rm -rf $RPM_BUILD_ROOT
+
 %{__make} install \
 	INSTALL_ROOT=$RPM_BUILD_ROOT \
 	QTDIR=%{_prefix}
@@ -51,7 +52,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/*
-%dir %{_docdir}/tskal
-%{_docdir}/tskal/*
-%dir %{_datadir}/tskal
-%{_datadir}/tskal/*
+%{_docdir}/tskal
+%{_datadir}/tskal

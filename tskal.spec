@@ -35,7 +35,8 @@ Aplikacja u¿ywa systemu skórek.
 qmake \
 	QMAKE_CXX="%{__cxx}" \
 	QMAKE_LINK="%{__cxx}" \
-	QMAKE_CXXFLAGS_RELEASE="%{rpmcflags}" \
+	QMAKE_CXXFLAGS_RELEASE="%{rpmcxxflags}" \
+	QMAKE_LFLAGS="%{rpmldflags}" \
 	QMAKE_RPATH=
 
 %{__make} \

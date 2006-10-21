@@ -1,5 +1,3 @@
-# TODO:
-# - optflags
 Summary:	Simple calendar which helps you to remember about important days
 Summary(pl):	Prosty kalendarz pomagaj±cy pamiêtaæ o wa¿nych datach
 Name:		tskal
@@ -34,7 +32,12 @@ Aplikacja u¿ywa systemu skórek.
 %setup -q
 
 %build
-qmake
+qmake \
+	QMAKE_CXX="%{__cxx}" \
+	QMAKE_LINK="%{__cxx}" \
+	QMAKE_CXXFLAGS_RELEASE="%{rpmcflags}" \
+	QMAKE_RPATH=
+
 %{__make} \
 	QTDIR=%{_prefix}
 

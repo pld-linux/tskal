@@ -1,5 +1,5 @@
 Summary:	Simple calendar which helps you to remember about important days
-Summary(pl):	Prosty kalendarz pomagaj±cy pamiêtaæ o wa¿nych datach
+Summary(pl.UTF-8):   Prosty kalendarz pomagajÄ…cy pamiÄ™taÄ‡ o waÅ¼nych datach
 Name:		tskal
 Version:	0.5
 Release:	3
@@ -20,17 +20,17 @@ so it is easy to notice few days before that an event (ie. partner's
 birthday) is coming. This gives us some time for action (ie. to buy
 flowers). Application uses skin system.
 
-%description -l pl
-Tskal jest prost± aplikacj± opart± o biblioteki Qt, która wy¶wietla
-kartki kalendarza u³o¿one w pasek. Dziêki temu, podobnie jak to czyni±
-poborowi u¿ywaj±c centymetra, ju¿ na wiele dni wcze¶niej ³atwo
-zauwa¿yæ, ¿e co¶ siê zbli¿a (np. imieniny ¿ony) i mamy czas na
-sensown± reakcjê (czyt. wybór i kupno prezentów i kwiatów). Aplikacja
-u¿ywa systemu skórek.
+%description -l pl.UTF-8
+Tskal jest prostÄ… aplikacjÄ… opartÄ… o biblioteki Qt, ktÃ³ra wyÅ›wietla
+kartki kalendarza uÅ‚oÅ¼one w pasek. DziÄ™ki temu, podobnie jak to czyniÄ…
+poborowi uÅ¼ywajÄ…c centymetra, juÅ¼ na wiele dni wczeÅ›niej Å‚atwo
+zauwaÅ¼yÄ‡, Å¼e coÅ› siÄ™ zbliÅ¼a (np. imieniny Å¼ony) i mamy czas na
+sensownÄ… reakcjÄ™ (czyt. wybÃ³r i kupno prezentÃ³w i kwiatÃ³w). Aplikacja
+uÅ¼ywa systemu skÃ³rek.
 
 %package themes
 Summary:	Additional skins for tskal application (recommended)
-Summary(pl):	Dodatkowe skórki dla programu tskal (zalecane)
+Summary(pl.UTF-8):   Dodatkowe skÃ³rki dla programu tskal (zalecane)
 Group:		X11/Applications
 Requires:	%{epoch}:%{name}-%{version}-%{release}
 
@@ -39,11 +39,11 @@ Additional skins for tskal application, which allows customise user
 interface. It is recommended by author to install this package because
 there is only one built-in skin in main package.
 
-%description themes -l pl
-W tym pakiecie znajduj± siê dodatkowe skórki do programu tskal. Dziêki
-nim mo¿na lepiej dostosowaæ wygl±d aplikacji. Autor poleca instalacjê
-tego pakietu, poniewa¿ w g³ównym pakiecie zawiera siê tylko jedna,
-domy¶lna skórka.
+%description themes -l pl.UTF-8
+W tym pakiecie znajdujÄ… siÄ™ dodatkowe skÃ³rki do programu tskal. DziÄ™ki
+nim moÅ¼na lepiej dostosowaÄ‡ wyglÄ…d aplikacji. Autor poleca instalacjÄ™
+tego pakietu, poniewaÅ¼ w gÅ‚Ã³wnym pakiecie zawiera siÄ™ tylko jedna,
+domyÅ›lna skÃ³rka.
 
 %prep
 %setup -q

@@ -1,5 +1,5 @@
 Summary:	Simple calendar which helps you to remember about important days
-Summary(pl.UTF-8):   Prosty kalendarz pomagający pamiętać o ważnych datach
+Summary(pl.UTF-8):	Prosty kalendarz pomagający pamiętać o ważnych datach
 Name:		tskal
 Version:	0.5
 Release:	3
@@ -30,7 +30,7 @@ używa systemu skórek.
 
 %package themes
 Summary:	Additional skins for tskal application (recommended)
-Summary(pl.UTF-8):   Dodatkowe skórki dla programu tskal (zalecane)
+Summary(pl.UTF-8):	Dodatkowe skórki dla programu tskal (zalecane)
 Group:		X11/Applications
 Requires:	%{epoch}:%{name}-%{version}-%{release}
 
